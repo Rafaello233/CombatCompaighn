@@ -18,29 +18,7 @@ body{
    margin:0;
    background-color:rgb(52, 56, 72);
 }
-.burger{
-   width: 50px;
-   height: 50px;
-   cursor:pointer;
-   padding:0;
-   background-color: white;
-   border: none;
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
 
-.burger__line{
- display:block;
- width: 21px;
- height: 3px;
- background-color:rgb(78, 86, 118);
- margin-bottom: 4px;
-}
-.burger__line:last-child {
-margin-bottom: 0;
-}
 .nameText{
    padding:5px;
    text-align: center;
@@ -80,13 +58,14 @@ img{
 .text-p{
    margin: 0;
    margin-bottom: 2vh;
-   background-color: #2c2f3492;
+   background-color: #26292e92;
    text-align: center;
    font-weight:900;
    font-family: Archivo;
+   color:rgb(187, 175, 175);
 }
 .text-block{
-   background-color: #2c2f3492;
+   background-color: #1f263392;
 }
 .text-p2{
    margin-bottom: 20px;
@@ -148,8 +127,10 @@ img{
 .icon{
    display:block;
    width: 38px;
-   height: 38px;
+   height: 48px;
    background-repeat: no-repeat;
    background-position: center;
    background-size: contain;
  }
+
+ 
